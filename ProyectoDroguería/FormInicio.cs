@@ -16,10 +16,29 @@ namespace ProyectoDroguería
         {
             InitializeComponent();
         }
-
         private void FormInicio_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void FormHijo(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Registrar registrar = new Registrar();
+            registrar.TopLevel = false;
+            registrar.FormBorderStyle = FormBorderStyle.None; //Muestra los bordes de la ventana
+            panelContenedor.Controls.Add(registrar);
+            registrar.Dock = DockStyle.Fill; //Acopla el contenedor
+            registrar.Show();
         }
     }
 }

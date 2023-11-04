@@ -31,11 +31,10 @@ namespace ProyectoDroguería
         {
             FormInicio formInicio = new FormInicio();
 
-            if (txtUsuario.Text == "Usuario" && txtContrasena.Text == "Admin")
+            if (txtUsuario.Text == "Admin" && txtContrasena.Text == "Admin")
             {
-                formInicio.ShowDialog();
-                this.Close();
-                
+                this.Hide(); //Lo oculta, pero, no culmina la compilación
+                formInicio.Show();
             }
             else
             {

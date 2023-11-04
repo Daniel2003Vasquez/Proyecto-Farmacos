@@ -9,3 +9,4 @@ C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\o
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.csproj.CoreCompileInputs.cache
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.exe
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.pdb
+C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.Registrar.resources
