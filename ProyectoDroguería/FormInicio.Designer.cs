@@ -69,18 +69,21 @@
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(220, 0);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1182, 695);
+            this.panelContenedor.Size = new System.Drawing.Size(929, 695);
             this.panelContenedor.TabIndex = 1;
             // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1402, 695);
+            this.ClientSize = new System.Drawing.Size(1149, 695);
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormInicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Droguería AmiloCasia";
             this.Load += new System.EventHandler(this.FormInicio_Load);
             this.panel1.ResumeLayout(false);
