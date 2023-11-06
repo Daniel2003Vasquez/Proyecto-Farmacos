@@ -33,8 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus, Version=7.0.0.3, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.7.0.0\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.System.Drawing.6.1.1\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormHola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHola.Designer.cs">
+      <DependentUpon>FormHola.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,14 +84,19 @@
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Archivo.cs" />
+    <Compile Include="Modelo\Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registrar.cs">
+    <Compile Include="FormRegistrarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registrar.Designer.cs">
-      <DependentUpon>Registrar.cs</DependentUpon>
+    <Compile Include="FormRegistrarProducto.Designer.cs">
+      <DependentUpon>FormRegistrarProducto.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormHola.resx">
+      <DependentUpon>FormHola.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,9 +113,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Registrar.resx">
-      <DependentUpon>Registrar.cs</DependentUpon>
+    <EmbeddedResource Include="FormRegistrarProducto.resx">
+      <DependentUpon>FormRegistrarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,8 +133,6 @@
   <ItemGroup>
     <None Include="Resources\Farmacia.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modelo\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

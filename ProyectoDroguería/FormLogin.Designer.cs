@@ -45,7 +45,7 @@
             // txtContrasena
             // 
             this.txtContrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContrasena.Location = new System.Drawing.Point(54, 295);
+            this.txtContrasena.Location = new System.Drawing.Point(62, 293);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(254, 30);
             this.txtContrasena.TabIndex = 8;
@@ -54,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(54, 272);
+            this.label2.Location = new System.Drawing.Point(62, 270);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 7;
@@ -63,7 +63,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(54, 219);
+            this.txtUsuario.Location = new System.Drawing.Point(62, 217);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(254, 30);
             this.txtUsuario.TabIndex = 6;
@@ -72,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 196);
+            this.label1.Location = new System.Drawing.Point(62, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 20);
             this.label1.TabIndex = 5;
@@ -80,9 +80,10 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.Teal;
+            this.btnIngresar.BackColor = System.Drawing.Color.Transparent;
+            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
-            this.btnIngresar.Location = new System.Drawing.Point(156, 357);
+            this.btnIngresar.Location = new System.Drawing.Point(163, 364);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(73, 30);
             this.btnIngresar.TabIndex = 9;
@@ -92,9 +93,10 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Teal;
+            this.btnCancelar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Location = new System.Drawing.Point(235, 357);
+            this.btnCancelar.Location = new System.Drawing.Point(242, 364);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(73, 30);
             this.btnCancelar.TabIndex = 10;
@@ -131,7 +133,7 @@
             // checkVerContrasena
             // 
             this.checkVerContrasena.AutoSize = true;
-            this.checkVerContrasena.Location = new System.Drawing.Point(54, 331);
+            this.checkVerContrasena.Location = new System.Drawing.Point(62, 329);
             this.checkVerContrasena.Name = "checkVerContrasena";
             this.checkVerContrasena.Size = new System.Drawing.Size(122, 20);
             this.checkVerContrasena.TabIndex = 14;
@@ -143,7 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(392, 451);
             this.Controls.Add(this.checkVerContrasena);
             this.Controls.Add(this.pictureBox1);
@@ -155,6 +157,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
