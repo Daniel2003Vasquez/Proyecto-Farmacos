@@ -38,7 +38,7 @@ namespace ProyectoDroguería
         private void button1_Click_2(object sender, EventArgs e)
         {
 
-            FormHola formHola = new FormHola();
+            FormBuscarProducto formHola = new FormBuscarProducto();
             panelContenedor.Controls.Clear();
             formHola.TopLevel = false;
             formHola.FormBorderStyle = FormBorderStyle.None; 

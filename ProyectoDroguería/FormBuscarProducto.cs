@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoDroguería
 {
-    public partial class FormHola : Form
+    public partial class FormBuscarProducto : Form
     {
-        public FormHola()
+        public FormBuscarProducto()
         {
             InitializeComponent();
         }

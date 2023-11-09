@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicio));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.btnRegistrarInicio = new System.Windows.Forms.Button();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +48,24 @@
             this.panel1.Size = new System.Drawing.Size(220, 581);
             this.panel1.TabIndex = 0;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnBuscar.FlatAppearance.BorderSize = 0;
+            this.btnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
+            this.btnBuscar.Location = new System.Drawing.Point(19, 139);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(176, 42);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Productos";
+            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // btnRegistrarInicio
             // 
             this.btnRegistrarInicio.BackColor = System.Drawing.Color.Transparent;
@@ -58,7 +76,7 @@
             this.btnRegistrarInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarInicio.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarInicio.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrarInicio.Location = new System.Drawing.Point(19, 95);
+            this.btnRegistrarInicio.Location = new System.Drawing.Point(19, 80);
             this.btnRegistrarInicio.Name = "btnRegistrarInicio";
             this.btnRegistrarInicio.Size = new System.Drawing.Size(176, 42);
             this.btnRegistrarInicio.TabIndex = 1;
@@ -74,24 +92,6 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(929, 581);
             this.panelContenedor.TabIndex = 1;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(19, 154);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(176, 42);
-            this.btnBuscar.TabIndex = 2;
-            this.btnBuscar.Text = "Productos";
-            this.btnBuscar.UseVisualStyleBackColor = false;
-            this.btnBuscar.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // FormInicio
             // 

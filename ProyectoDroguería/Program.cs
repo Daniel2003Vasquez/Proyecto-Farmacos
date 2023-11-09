@@ -16,7 +16,7 @@ namespace ProyectoDroguería
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formlogin());
+            Application.Run(new FormInicio());
         }
     }
 }

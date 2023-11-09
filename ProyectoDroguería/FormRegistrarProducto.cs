@@ -18,11 +18,6 @@ namespace ProyectoDroguería
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
         public void LimpiarTxtEnRegistro()
         {
             txtNombreR.Text = "";
@@ -87,12 +82,41 @@ namespace ProyectoDroguería
                 // Guardar los datos en Excel
                 archivo.GuardarDatosEnExcel(product);
                 MessageBox.Show("Imagen seleccionada y datos guardados con éxito.");
+                LimpiarTxtEnRegistro();
             }
         }
 
         private void btnRegistrarR_Click(object sender, EventArgs e) //Boton Registrar
         {
-            
+            MessageBox.Show("No hace nada todavía");
+        }
+
+        private void txtSerialR_Leave(object sender, EventArgs e)
+        {
+            TextBox textBoxSerial = (TextBox)sender;
+            try
+            {
+                if (textBoxSerial.Name.Equals("txtSerialR"))
+                {
+                    long.Parse(txtSerialR.Text);
+                    errorProvider1.SetError(textBoxSerial, "");
+                }
+                else if (textBoxSerial.Name.Equals("txtCantidadR"))
+                {
+                    long.Parse(txtCantidadR.Text);
+                    errorProvider1.SetError(textBoxSerial, "");
+                }
+                else if (textBoxSerial.Name.Equals("txtPrecioR"))
+                {
+                    long.Parse(txtPrecioR.Text);
+                    errorProvider1.SetError(textBoxSerial, "");
+                }
+
+            }catch 
+            {
+                errorProvider1.SetError(textBoxSerial, "Ingrese solo números");
+                textBoxSerial.Focus();
+            }
         }
     }
 }

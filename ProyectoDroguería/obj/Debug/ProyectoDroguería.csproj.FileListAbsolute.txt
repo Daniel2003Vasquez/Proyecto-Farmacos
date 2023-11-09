@@ -10,7 +10,6 @@ C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\o
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.exe
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.pdb
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.FormRegistrarProducto.resources
-C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.FormHola.resources
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\bin\Debug\EPPlus.dll
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\bin\Debug\EPPlus.Interfaces.dll
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\bin\Debug\EPPlus.System.Drawing.dll
@@ -19,3 +18,4 @@ C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\b
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\bin\Debug\EPPlus.xml
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
 C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.csproj.CopyComplete
+C:\Users\Daniel Vásquez\Desktop\Proyecto Programación III\ProyectoDroguería\obj\Debug\ProyectoDroguería.FormBuscarProducto.resources
